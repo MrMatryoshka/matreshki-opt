@@ -1,44 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8c42b9aa-c3b3-439a-8660-c2abfab784b2" name="Default Changelist" comment="50/50">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/env.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/getHttpsConfig.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/jest/cssTransform.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/jest/fileTransform.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/modules.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/paths.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/pnpTs.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/webpack.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/webpackDevServer.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/db.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/build.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/start.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Pages/ Gallery/Gallery.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Pages/About/About.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Pages/Buy/Card.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Pages/Home/home.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/img/matreshka-logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Categories/Categories.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Header/Header.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Matreshka/Matreshka.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/SortPopup/SortPopup.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hoc/Button/Button.jsx" afterDir="false" />
+    <list default="true" id="8c42b9aa-c3b3-439a-8660-c2abfab784b2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/redux/actions/cart.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/redux/actions/filters.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/redux/actions/matreshka.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/redux/reducers/cart.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/redux/reducers/filters.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/redux/reducers/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/redux/reducers/matreshka.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/redux/store.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/public/favicon.ico" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/logo192.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/logo512.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/manifest.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Pages/ Gallery/Gallery.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/ Gallery/Gallery.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/SortPopup/SortPopup.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SortPopup/SortPopup.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/logo.svg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -70,7 +49,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/assets/img" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/redux/actions" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -80,15 +59,15 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/node_modules" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/redux/actions" />
       <recent name="$PROJECT_DIR$/src/assets/img" />
       <recent name="$PROJECT_DIR$/public" />
       <recent name="$PROJECT_DIR$/src/hoc" />
       <recent name="$PROJECT_DIR$/src/components/Navigation" />
-      <recent name="$PROJECT_DIR$/src/components" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/node_modules" />
     </key>
   </component>
   <component name="RunManager" selected="npm.npm start">
@@ -140,8 +119,16 @@
       <workItem from="1601357369383" duration="10952000" />
       <workItem from="1601394239018" duration="770000" />
       <workItem from="1601398813727" duration="166000" />
-      <workItem from="1601448053972" duration="1858000" />
+      <workItem from="1601448053972" duration="14944000" />
     </task>
+    <task id="LOCAL-00001" summary="50/50">
+      <created>1601450180918</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1601450180918</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -150,44 +137,46 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="50/50" />
     <option name="LAST_COMMIT_MESSAGE" value="50/50" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="427" y="180" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1601027600032">
       <screen x="0" y="23" width="1440" height="791" />
     </state>
     <state x="427" y="180" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1440.791@0.23.1440.791" timestamp="1601027600032" />
-    <state x="300" y="23" key="CommitChangelistDialog2" timestamp="1601449911756">
+    <state x="300" y="23" key="CommitChangelistDialog2" timestamp="1601450180392">
       <screen x="0" y="23" width="1440" height="791" />
     </state>
-    <state x="300" y="23" key="CommitChangelistDialog2/0.23.1440.791@0.23.1440.791" timestamp="1601449911756" />
-    <state width="1419" height="172" key="GridCell.Tab.0.bottom" timestamp="1601449911879">
+    <state x="300" y="23" key="CommitChangelistDialog2/0.23.1440.791@0.23.1440.791" timestamp="1601450180392" />
+    <state width="1419" height="172" key="GridCell.Tab.0.bottom" timestamp="1601470180919">
       <screen x="0" y="23" width="1440" height="791" />
     </state>
-    <state width="1419" height="172" key="GridCell.Tab.0.bottom/0.23.1440.791@0.23.1440.791" timestamp="1601449911879" />
+    <state width="1419" height="172" key="GridCell.Tab.0.bottom/0.23.1440.791@0.23.1440.791" timestamp="1601470180919" />
     <state width="1325" height="197" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1601050943440" />
-    <state width="1419" height="172" key="GridCell.Tab.0.center" timestamp="1601449911873">
+    <state width="1419" height="172" key="GridCell.Tab.0.center" timestamp="1601470180902">
       <screen x="0" y="23" width="1440" height="791" />
     </state>
-    <state width="1419" height="172" key="GridCell.Tab.0.center/0.23.1440.791@0.23.1440.791" timestamp="1601449911873" />
+    <state width="1419" height="172" key="GridCell.Tab.0.center/0.23.1440.791@0.23.1440.791" timestamp="1601470180902" />
     <state width="1325" height="197" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1601050943439" />
-    <state width="1419" height="172" key="GridCell.Tab.0.left" timestamp="1601449911872">
+    <state width="1419" height="172" key="GridCell.Tab.0.left" timestamp="1601470180900">
       <screen x="0" y="23" width="1440" height="791" />
     </state>
-    <state width="1419" height="172" key="GridCell.Tab.0.left/0.23.1440.791@0.23.1440.791" timestamp="1601449911872" />
+    <state width="1419" height="172" key="GridCell.Tab.0.left/0.23.1440.791@0.23.1440.791" timestamp="1601470180900" />
     <state width="1325" height="197" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1601050943438" />
-    <state width="1419" height="172" key="GridCell.Tab.0.right" timestamp="1601449911875">
+    <state width="1419" height="172" key="GridCell.Tab.0.right" timestamp="1601470180913">
       <screen x="0" y="23" width="1440" height="791" />
     </state>
-    <state width="1419" height="172" key="GridCell.Tab.0.right/0.23.1440.791@0.23.1440.791" timestamp="1601449911875" />
+    <state width="1419" height="172" key="GridCell.Tab.0.right/0.23.1440.791@0.23.1440.791" timestamp="1601470180913" />
     <state width="1325" height="197" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1601050943439" />
     <state x="529" y="230" key="RollbackChangesDialog" timestamp="1601028721318">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="529" y="230" key="RollbackChangesDialog/0.23.1440.877@0.23.1440.877" timestamp="1601028721318" />
-    <state x="293" y="157" key="Vcs.Push.Dialog.v2" timestamp="1601449800802">
+    <state x="293" y="157" key="Vcs.Push.Dialog.v2" timestamp="1601450331320">
       <screen x="0" y="23" width="1440" height="791" />
     </state>
-    <state x="293" y="157" key="Vcs.Push.Dialog.v2/0.23.1440.791@0.23.1440.791" timestamp="1601449800802" />
+    <state x="293" y="157" key="Vcs.Push.Dialog.v2/0.23.1440.791@0.23.1440.791" timestamp="1601450331320" />
     <state x="506" y="338" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1601449712712">
       <screen x="0" y="23" width="1440" height="791" />
     </state>
