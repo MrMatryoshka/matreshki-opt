@@ -2,22 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8c42b9aa-c3b3-439a-8660-c2abfab784b2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/redux/actions/cart.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/actions/filters.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/actions/matreshka.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/reducers/cart.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/reducers/filters.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/reducers/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/reducers/matreshka.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/store.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/manifest.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Pages/ Gallery/Gallery.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/ Gallery/Gallery.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Categories/Categories.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Categories/Categories.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/SortPopup/SortPopup.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SortPopup/SortPopup.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/actions/filters.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/actions/filters.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -33,7 +24,7 @@
     </option>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="50/50" />
+        <entry key="$PROJECT_DIR$" value="#2" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -119,7 +110,8 @@
       <workItem from="1601357369383" duration="10952000" />
       <workItem from="1601394239018" duration="770000" />
       <workItem from="1601398813727" duration="166000" />
-      <workItem from="1601448053972" duration="14944000" />
+      <workItem from="1601448053972" duration="15456000" />
+      <workItem from="1601538208138" duration="8284000" />
     </task>
     <task id="LOCAL-00001" summary="50/50">
       <created>1601450180918</created>
@@ -128,7 +120,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601450180918</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="add Redux">
+      <created>1601484427580</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1601484427580</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -136,7 +135,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="50/50" />
-    <option name="LAST_COMMIT_MESSAGE" value="50/50" />
+    <MESSAGE value="add Redux" />
+    <option name="LAST_COMMIT_MESSAGE" value="add Redux" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
@@ -145,38 +145,38 @@
       <screen x="0" y="23" width="1440" height="791" />
     </state>
     <state x="427" y="180" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1440.791@0.23.1440.791" timestamp="1601027600032" />
-    <state x="300" y="23" key="CommitChangelistDialog2" timestamp="1601450180392">
+    <state x="300" y="23" key="CommitChangelistDialog2" timestamp="1601484427255">
       <screen x="0" y="23" width="1440" height="791" />
     </state>
-    <state x="300" y="23" key="CommitChangelistDialog2/0.23.1440.791@0.23.1440.791" timestamp="1601450180392" />
-    <state width="1419" height="172" key="GridCell.Tab.0.bottom" timestamp="1601470180919">
+    <state x="300" y="23" key="CommitChangelistDialog2/0.23.1440.791@0.23.1440.791" timestamp="1601484427255" />
+    <state width="1419" height="460" key="GridCell.Tab.0.bottom" timestamp="1601562850088">
       <screen x="0" y="23" width="1440" height="791" />
     </state>
-    <state width="1419" height="172" key="GridCell.Tab.0.bottom/0.23.1440.791@0.23.1440.791" timestamp="1601470180919" />
+    <state width="1419" height="460" key="GridCell.Tab.0.bottom/0.23.1440.791@0.23.1440.791" timestamp="1601562850088" />
     <state width="1325" height="197" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1601050943440" />
-    <state width="1419" height="172" key="GridCell.Tab.0.center" timestamp="1601470180902">
+    <state width="1419" height="460" key="GridCell.Tab.0.center" timestamp="1601562850088">
       <screen x="0" y="23" width="1440" height="791" />
     </state>
-    <state width="1419" height="172" key="GridCell.Tab.0.center/0.23.1440.791@0.23.1440.791" timestamp="1601470180902" />
+    <state width="1419" height="460" key="GridCell.Tab.0.center/0.23.1440.791@0.23.1440.791" timestamp="1601562850088" />
     <state width="1325" height="197" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1601050943439" />
-    <state width="1419" height="172" key="GridCell.Tab.0.left" timestamp="1601470180900">
+    <state width="1419" height="460" key="GridCell.Tab.0.left" timestamp="1601562850087">
       <screen x="0" y="23" width="1440" height="791" />
     </state>
-    <state width="1419" height="172" key="GridCell.Tab.0.left/0.23.1440.791@0.23.1440.791" timestamp="1601470180900" />
+    <state width="1419" height="460" key="GridCell.Tab.0.left/0.23.1440.791@0.23.1440.791" timestamp="1601562850087" />
     <state width="1325" height="197" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1601050943438" />
-    <state width="1419" height="172" key="GridCell.Tab.0.right" timestamp="1601470180913">
+    <state width="1419" height="460" key="GridCell.Tab.0.right" timestamp="1601562850088">
       <screen x="0" y="23" width="1440" height="791" />
     </state>
-    <state width="1419" height="172" key="GridCell.Tab.0.right/0.23.1440.791@0.23.1440.791" timestamp="1601470180913" />
+    <state width="1419" height="460" key="GridCell.Tab.0.right/0.23.1440.791@0.23.1440.791" timestamp="1601562850088" />
     <state width="1325" height="197" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1601050943439" />
     <state x="529" y="230" key="RollbackChangesDialog" timestamp="1601028721318">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="529" y="230" key="RollbackChangesDialog/0.23.1440.877@0.23.1440.877" timestamp="1601028721318" />
-    <state x="293" y="157" key="Vcs.Push.Dialog.v2" timestamp="1601450331320">
+    <state x="293" y="157" key="Vcs.Push.Dialog.v2" timestamp="1601484453427">
       <screen x="0" y="23" width="1440" height="791" />
     </state>
-    <state x="293" y="157" key="Vcs.Push.Dialog.v2/0.23.1440.791@0.23.1440.791" timestamp="1601450331320" />
+    <state x="293" y="157" key="Vcs.Push.Dialog.v2/0.23.1440.791@0.23.1440.791" timestamp="1601484453427" />
     <state x="506" y="338" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1601449712712">
       <screen x="0" y="23" width="1440" height="791" />
     </state>
