@@ -12,6 +12,7 @@ function Matreshka ({name,imageUrl,price,sizes, types}) {
 
     const availableSize =[10, 15, 18]
 
+
     const onSelectTypes = (index) => {
         setActiveType(index)
 
@@ -76,6 +77,7 @@ function Matreshka ({name,imageUrl,price,sizes, types}) {
             </div>
         </div>
     )
+
 }
 
 Matreshka.propTypes ={
@@ -84,12 +86,16 @@ Matreshka.propTypes ={
     price:PropTypes.number.isRequired,
     sizes:PropTypes.arrayOf(PropTypes.number).isRequired,
     types:PropTypes.arrayOf(PropTypes.number).isRequired,
+
+
 }
 Matreshka.defaultProps ={
     name:'Название матрешки ',
     imageUrl: 'https://static.ngs.ru/news/2020/99/preview/89204197f0c2e9ee0464abf2d59a416206614b18_1280_960.jpg',
     price: 100,
     size: 100 ,
-    types:[]
+    types:[],
+
+
 }
 export default Matreshka;
