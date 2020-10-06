@@ -1,14 +1,15 @@
 import React from "react";
 import PropTypes from 'prop-types';
 import classNames from 'classnames';
+import Button from "../../hoc/Button/Button";
 
 
-function Matreshka ({name,imageUrl,price,sizes, types}) {
+function Matreshka ({id,name,imageUrl,price,sizes, types,onClickAddMatreshka,addedCount}) {
 
     const availableTypes= ['Традиционная','Авторская']
 
     const [activeType,setActiveType]= React.useState(types[0])
-    const [activeSize,setActiveSize]= React.useState(sizes[0])
+    const [activeSize,setActiveSize]= React.useState(0)
 
     const availableSize =[10, 15, 18]
 
@@ -21,6 +22,17 @@ function Matreshka ({name,imageUrl,price,sizes, types}) {
         setActiveSize(index)
 
     }
+    const onAddMatreshka = () => {
+       const obj = {
+           id,
+           name,
+           imageUrl,
+           price,
+           size:availableSize[activeSize],
+           type:availableTypes[activeType]
+       }
+        onClickAddMatreshka(obj)
+    }
 
     return (
         <div className="matreshka-block">
@@ -29,7 +41,7 @@ function Matreshka ({name,imageUrl,price,sizes, types}) {
                 src={imageUrl}
                 alt="Matreshka"
             />
-            <h4 className="matreshka-block__title"> {name}</h4>
+            <h4 className="matreshka-block__title"> {name} </h4>
             <div className="matreshka-block__selector">
                 <ul>
                     {availableTypes.map((type,index)=>
@@ -58,7 +70,7 @@ function Matreshka ({name,imageUrl,price,sizes, types}) {
             </div>
             <div className="matreshka-block__bottom">
                 <div className="matreshka-block__price">от {price} ₽</div>
-                <div className="button button--outline button--add">
+                <Button onClick={onAddMatreshka} className={"button--add"} outline >
                     <svg
                         width="12"
                         height="12"
@@ -72,8 +84,8 @@ function Matreshka ({name,imageUrl,price,sizes, types}) {
                         />
                     </svg>
                     <span>Добавить</span>
-                    <i>2</i>
-                </div>
+                    {addedCount &&<i>{addedCount}</i>}
+                </Button>
             </div>
         </div>
     )
@@ -86,6 +98,8 @@ Matreshka.propTypes ={
     price:PropTypes.number.isRequired,
     sizes:PropTypes.arrayOf(PropTypes.number).isRequired,
     types:PropTypes.arrayOf(PropTypes.number).isRequired,
+    anAddMatreshka:PropTypes.func,
+    addedCount:PropTypes.number
 
 
 }

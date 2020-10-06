@@ -6,6 +6,7 @@ import {useDispatch, useSelector} from "react-redux";
 import {setCategory, setSortBy} from "../../redux/actions/filters";
 import {fetchMatreshki} from "../../redux/actions/matreshka";
 import MyLoader from "../../components/Loader/MyLoader";
+import {addMatreshkiToCard} from "../../redux/actions/cart";
 
 const categoryName =["Семеновские", 'Майдановские','Загорские','Вятские','Авторские'];
 const sortItem =[
@@ -17,6 +18,7 @@ const sortItem =[
 function Gallery () {
     const dispatch = useDispatch()
     const items = useSelector(({ matreshkis }) => matreshkis.items);
+    const cartItems = useSelector(({ cart }) => cart.items);
     const isLoaded = useSelector(({ matreshkis }) => matreshkis.isLoaded);
     const {category,sortBy} = useSelector(({ filters }) => filters);
 
@@ -34,6 +36,11 @@ function Gallery () {
     const onSelectSortType = React.useCallback((type) =>{
         dispatch(setSortBy(type))
     },[])
+
+    const handleAddMatreshkaToCart = (obj) => {
+        dispatch(addMatreshkiToCard(obj))
+
+    }
     return(
             <div className="container">
                 <div className="content__top">
@@ -48,7 +55,9 @@ function Gallery () {
                     {isLoaded ? items.map(obj => (
 
                         <Matreshka
+                            onClickAddMatreshka={handleAddMatreshkaToCart}
                             key={obj.id}
+                           addedCount={cartItems[obj.id] && cartItems[obj.id].length}
                             isLoading={true}
                             {...obj}
 

@@ -2,20 +2,48 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8c42b9aa-c3b3-439a-8660-c2abfab784b2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/Loader/MyLoader.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/db 2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/arrow-top.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/cart.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/empty-cart.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/grey-arrow-left.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/plus.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/trash.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/_fonts.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/_variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/app.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/components/_all.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/components/_button.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/components/_categories.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/components/_header.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/components/_matreshka-block.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/components/_sort.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/fonts/ProximaNova-Black.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/fonts/ProximaNova-Black.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/fonts/ProximaNova-Black.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/fonts/ProximaNova-Bold.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/fonts/ProximaNova-Bold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/fonts/ProximaNova-Bold.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/fonts/ProximaNova-Extrabld.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/fonts/ProximaNova-Extrabld.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/fonts/ProximaNova-Extrabld.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/fonts/ProximaNova-Regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/fonts/ProximaNova-Regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/fonts/ProximaNova-Regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/fonts/ProximaNova-Semibold.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/fonts/ProximaNova-Semibold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/fonts/ProximaNova-Semibold.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/libs/_normalize.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/db.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/db.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Pages/ Gallery/Gallery.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/ Gallery/Gallery.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Categories/Categories.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Categories/Categories.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Pages/Buy/Card.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/Buy/Card.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Matreshka/Matreshka.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Matreshka/Matreshka.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/SortPopup/SortPopup.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SortPopup/SortPopup.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/actions/matreshka.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/actions/matreshka.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/reducers/filters.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/reducers/filters.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/reducers/matreshka.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/reducers/matreshka.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/store.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/store.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/actions/cart.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/actions/cart.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/reducers/cart.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/reducers/cart.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/reducers/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/reducers/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,7 +58,7 @@
     </option>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="#2" />
+        <entry key="$PROJECT_DIR$" value="#4" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -148,6 +176,31 @@
       <workItem from="1601652216724" duration="2297000" />
       <workItem from="1601818157151" duration="313000" />
       <workItem from="1601820462951" duration="803000" />
+      <workItem from="1601822841645" duration="94000" />
+      <workItem from="1601894860316" duration="832000" />
+      <workItem from="1601896974319" duration="530000" />
+      <workItem from="1601898342913" duration="561000" />
+      <workItem from="1601899060966" duration="502000" />
+      <workItem from="1601899960339" duration="482000" />
+      <workItem from="1601900593305" duration="435000" />
+      <workItem from="1601901207200" duration="428000" />
+      <workItem from="1601902162013" duration="554000" />
+      <workItem from="1601904390548" duration="513000" />
+      <workItem from="1601906498910" duration="561000" />
+      <workItem from="1601907161791" duration="483000" />
+      <workItem from="1601907822922" duration="409000" />
+      <workItem from="1601908439641" duration="545000" />
+      <workItem from="1601909630819" duration="270000" />
+      <workItem from="1601910528094" duration="541000" />
+      <workItem from="1601911141614" duration="548000" />
+      <workItem from="1601911772053" duration="333000" />
+      <workItem from="1601912648883" duration="427000" />
+      <workItem from="1601913318042" duration="355000" />
+      <workItem from="1601914761677" duration="581000" />
+      <workItem from="1601972246028" duration="6000" />
+      <workItem from="1601972757581" duration="532000" />
+      <workItem from="1601974115579" duration="189000" />
+      <workItem from="1601983132010" duration="227000" />
     </task>
     <task id="LOCAL-00001" summary="50/50">
       <created>1601450180918</created>
@@ -170,7 +223,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601564804639</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="&#10;Sorting">
+      <created>1601822900733</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1601822900733</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -180,55 +240,64 @@
     <MESSAGE value="50/50" />
     <MESSAGE value="add Redux" />
     <MESSAGE value="&#10;Rewrote native Redux to Redux Hook and adding fake json server" />
-    <option name="LAST_COMMIT_MESSAGE" value="&#10;Rewrote native Redux to Redux Hook and adding fake json server" />
+    <MESSAGE value="&#10;Sorting" />
+    <option name="LAST_COMMIT_MESSAGE" value="&#10;Sorting" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="406" y="238" key="#Notifications" timestamp="1601983377595">
+      <screen x="0" y="23" width="1440" height="791" />
+    </state>
+    <state x="406" y="238" key="#Notifications/0.23.1440.791@0.23.1440.791" timestamp="1601983377595" />
     <state x="427" y="180" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1601027600032">
       <screen x="0" y="23" width="1440" height="791" />
     </state>
     <state x="427" y="180" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1440.791@0.23.1440.791" timestamp="1601027600032" />
-    <state x="305" y="23" key="CommitChangelistDialog2" timestamp="1601564804069">
+    <state x="305" y="23" key="CommitChangelistDialog2" timestamp="1601822900265">
       <screen x="0" y="23" width="1440" height="791" />
     </state>
-    <state x="305" y="23" key="CommitChangelistDialog2/0.23.1440.791@0.23.1440.791" timestamp="1601564804069" />
-    <state width="1419" height="226" key="GridCell.Tab.0.bottom" timestamp="1601821725611">
-      <screen x="0" y="23" width="1440" height="791" />
+    <state x="305" y="23" key="CommitChangelistDialog2/0.23.1440.791@0.23.1440.791" timestamp="1601822900265" />
+    <state width="1419" height="190" key="GridCell.Tab.0.bottom" timestamp="1601972838766">
+      <screen x="0" y="23" width="1440" height="792" />
     </state>
-    <state width="1419" height="226" key="GridCell.Tab.0.bottom/0.23.1440.791@0.23.1440.791" timestamp="1601821725611" />
+    <state width="1419" height="190" key="GridCell.Tab.0.bottom/0.23.1440.791@0.23.1440.791" timestamp="1601915105722" />
+    <state width="1419" height="190" key="GridCell.Tab.0.bottom/0.23.1440.792@0.23.1440.792" timestamp="1601972838766" />
     <state width="1419" height="226" key="GridCell.Tab.0.bottom/0.23.1440.795@0.23.1440.795" timestamp="1601808403944" />
     <state width="1325" height="197" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1601050943440" />
-    <state width="1419" height="226" key="GridCell.Tab.0.center" timestamp="1601821725609">
-      <screen x="0" y="23" width="1440" height="791" />
+    <state width="1419" height="190" key="GridCell.Tab.0.center" timestamp="1601972838764">
+      <screen x="0" y="23" width="1440" height="792" />
     </state>
-    <state width="1419" height="226" key="GridCell.Tab.0.center/0.23.1440.791@0.23.1440.791" timestamp="1601821725609" />
+    <state width="1419" height="190" key="GridCell.Tab.0.center/0.23.1440.791@0.23.1440.791" timestamp="1601915105713" />
+    <state width="1419" height="190" key="GridCell.Tab.0.center/0.23.1440.792@0.23.1440.792" timestamp="1601972838764" />
     <state width="1419" height="226" key="GridCell.Tab.0.center/0.23.1440.795@0.23.1440.795" timestamp="1601808403942" />
     <state width="1325" height="197" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1601050943439" />
-    <state width="1419" height="226" key="GridCell.Tab.0.left" timestamp="1601821725609">
-      <screen x="0" y="23" width="1440" height="791" />
+    <state width="1419" height="190" key="GridCell.Tab.0.left" timestamp="1601972838761">
+      <screen x="0" y="23" width="1440" height="792" />
     </state>
-    <state width="1419" height="226" key="GridCell.Tab.0.left/0.23.1440.791@0.23.1440.791" timestamp="1601821725609" />
+    <state width="1419" height="190" key="GridCell.Tab.0.left/0.23.1440.791@0.23.1440.791" timestamp="1601915105710" />
+    <state width="1419" height="190" key="GridCell.Tab.0.left/0.23.1440.792@0.23.1440.792" timestamp="1601972838761" />
     <state width="1419" height="226" key="GridCell.Tab.0.left/0.23.1440.795@0.23.1440.795" timestamp="1601808403940" />
     <state width="1325" height="197" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1601050943438" />
-    <state width="1419" height="226" key="GridCell.Tab.0.right" timestamp="1601821725610">
-      <screen x="0" y="23" width="1440" height="791" />
+    <state width="1419" height="190" key="GridCell.Tab.0.right" timestamp="1601972838765">
+      <screen x="0" y="23" width="1440" height="792" />
     </state>
-    <state width="1419" height="226" key="GridCell.Tab.0.right/0.23.1440.791@0.23.1440.791" timestamp="1601821725610" />
+    <state width="1419" height="190" key="GridCell.Tab.0.right/0.23.1440.791@0.23.1440.791" timestamp="1601915105714" />
+    <state width="1419" height="190" key="GridCell.Tab.0.right/0.23.1440.792@0.23.1440.792" timestamp="1601972838765" />
     <state width="1419" height="226" key="GridCell.Tab.0.right/0.23.1440.795@0.23.1440.795" timestamp="1601808403943" />
     <state width="1325" height="197" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1601050943439" />
     <state x="529" y="230" key="RollbackChangesDialog" timestamp="1601028721318">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="529" y="230" key="RollbackChangesDialog/0.23.1440.877@0.23.1440.877" timestamp="1601028721318" />
-    <state x="293" y="157" key="Vcs.Push.Dialog.v2" timestamp="1601564810400">
+    <state x="293" y="157" key="Vcs.Push.Dialog.v2" timestamp="1601822922848">
       <screen x="0" y="23" width="1440" height="791" />
     </state>
-    <state x="293" y="157" key="Vcs.Push.Dialog.v2/0.23.1440.791@0.23.1440.791" timestamp="1601564810400" />
-    <state x="506" y="338" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1601449712712">
+    <state x="293" y="157" key="Vcs.Push.Dialog.v2/0.23.1440.791@0.23.1440.791" timestamp="1601822922848" />
+    <state x="506" y="338" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1601983294692">
       <screen x="0" y="23" width="1440" height="791" />
     </state>
-    <state x="506" y="338" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1440.791@0.23.1440.791" timestamp="1601449712712" />
+    <state x="506" y="338" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1440.791@0.23.1440.791" timestamp="1601983294692" />
     <state x="380" y="138" width="670" height="676" key="search.everywhere.popup" timestamp="1601385399978">
       <screen x="0" y="23" width="1440" height="791" />
     </state>
