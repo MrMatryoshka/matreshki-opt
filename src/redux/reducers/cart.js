@@ -6,23 +6,29 @@ const initialState ={
 
 }
 
+const getTotalPrice = arr => arr.reduce((sum,obj) => obj.price +sum ,0)
+
 const cart = (state = initialState, action) => {
 
     switch (action.type){
 
         case "ADD_MATRESHKI_TO_CARD" : {
+            const currentMatreshkaItems = !state.items[action.payload.id]
+                ? [action.payload]
+                : [...state.items[action.payload.id].items,
+                    action.payload]
             const newItems={
                 ...state.items,
-                [action.payload.id]:
-                    !state.items[action.payload.id]
-                        ? [action.payload]
-                        : [...state.items[action.payload.id],
-                        action.payload]
+                [action.payload.id]:{
+                    items:currentMatreshkaItems ,
+                    totalPrice: getTotalPrice(currentMatreshkaItems),
+                }
+
 
             }
-            const AllMatreshki = Object.values(newItems).flat();
-            // [].concat.apply([],Object.values(newItems))
-            const totalPrice = AllMatreshki.reduce((sum,obj) => obj.price +sum ,0)
+            const items = Object.values(newItems).map((obj) => obj.items)
+            const AllMatreshki = [].concat.apply([],items)
+            const totalPrice = getTotalPrice(AllMatreshki)
             return {
                 ...state,
                 items: newItems,
@@ -31,6 +37,17 @@ const cart = (state = initialState, action) => {
             }
 
             }
+        case "CLEAR_CART" : {
+            return {
+                items:{},
+                totalPrice: 0,
+                totalCount:0
+            }
+        }
+        case "REMOVE_CART_ITEM":{
+           return
+
+        }
         default :
             return state
     }

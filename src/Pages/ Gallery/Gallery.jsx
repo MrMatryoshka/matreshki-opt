@@ -6,7 +6,7 @@ import {useDispatch, useSelector} from "react-redux";
 import {setCategory, setSortBy} from "../../redux/actions/filters";
 import {fetchMatreshki} from "../../redux/actions/matreshka";
 import MyLoader from "../../components/Loader/MyLoader";
-import {addMatreshkiToCard} from "../../redux/actions/cart";
+import {addMatreshkiToCart} from "../../redux/actions/cart";
 
 const categoryName =["Семеновские", 'Майдановские','Загорские','Вятские','Авторские'];
 const sortItem =[
@@ -38,7 +38,7 @@ function Gallery () {
     },[])
 
     const handleAddMatreshkaToCart = (obj) => {
-        dispatch(addMatreshkiToCard(obj))
+        dispatch(addMatreshkiToCart(obj))
 
     }
     return(
@@ -57,7 +57,7 @@ function Gallery () {
                         <Matreshka
                             onClickAddMatreshka={handleAddMatreshkaToCart}
                             key={obj.id}
-                           addedCount={cartItems[obj.id] && cartItems[obj.id].length}
+                           addedCount={cartItems[obj.id] && cartItems[obj.id].items.length}
                             isLoading={true}
                             {...obj}
 

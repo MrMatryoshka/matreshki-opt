@@ -17,7 +17,7 @@ export const  fetchMatreshki = (sortBy,category) => (dispatch) => {
 
     console.log(sortBy,category)
     dispatch(setLoaded(false))
-    axios.get(`http://localhost:3001/matreshki?${category !== null ?`category=${category}`:''}&_sort=${sortBy.type}&_order=${sortBy.order}`)
+    axios.get(`/matreshki?${category !== null ?`category=${category}`:''}&_sort=${sortBy.type}&_order=${sortBy.order}`)
         .then(({data}) => {  dispatch(setMatreshki(data))  })
         .catch((e)=> console.log('error', e) )
 
