@@ -1,9 +1,10 @@
 import React from "react";
 import CartItem from "../../components/Card/CardItem";
-import {clearCart, removeItem} from '../../redux/actions/cart'
+import {clearCart, minusCartItem, plusCartItem, removeItem} from '../../redux/actions/cart'
 import {useDispatch, useSelector} from "react-redux";
 import CartEmpty from "../../components/Card/cart-empty";
 import {Link} from "react-router-dom";
+import Button from "../../hoc/Button/Button";
 
 
 function Card () {
@@ -24,6 +25,16 @@ function Card () {
             dispatch(removeItem(id))
         }
     }
+    const onPlusItem = (id) => {
+        dispatch(plusCartItem(id));
+    };
+
+    const onMinusItem = (id) => {
+        dispatch(minusCartItem(id));
+    };
+    const onClickOrder = () => {
+        console.log('ВАШ ЗАКАЗ', items);
+    };
 
 
     return(
@@ -80,6 +91,8 @@ function Card () {
                                     totalPrice={items[obj.id].totalPrice}
                                     totalCount={items[obj.id].items.length}
                                     onRemoveCart={onRemoveCart}
+                                    onMinus={onMinusItem}
+                                    onPlus={onPlusItem}
                                 />
                             ))}
 
@@ -100,9 +113,9 @@ function Card () {
 
                     <span>Вернуться назад</span>
                     </Link>
-                    <div className="button pay-btn">
-                    <span>Оплатить сейчас</span>
-                    </div>
+                        <Button onClick={onClickOrder} className="pay-btn">
+                            <span>Оплатить сейчас</span>
+                        </Button>
                     </div>
                     </div>  : <CartEmpty/>}
 
