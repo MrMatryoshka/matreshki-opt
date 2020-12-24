@@ -1,17 +1,19 @@
 @import 'variables';
 
 .sort {
+  margin-left: 20px;
   position: relative;
   &__label {
     display: flex;
     align-items: center;
+
 
     svg {
       margin-right: 8px;
       transform: rotate(180deg);
 
       &.rotated {
-        transform: rotate(0deg);
+        transform: rotate(0);
       }
     }
 
@@ -20,8 +22,8 @@
     }
 
     span {
-      color: $orange;
-      border-bottom: 1px dashed $orange;
+      color: #fae208f8;
+      border-bottom: 1px dashed #fae208f8;
       cursor: pointer;
     }
   }
@@ -30,8 +32,9 @@
     position: absolute;
     right: 0;
     margin-top: 15px;
-    background: #ffffff;
-    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.09);
+    background: #fae208f8;
+    color: black;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.09);
     border-radius: 10px;
     overflow: hidden;
     padding: 10px 0;
@@ -50,7 +53,7 @@
 
         &.active {
           font-weight: bold;
-          color: $orange;
+          color:black;
         }
       }
     }

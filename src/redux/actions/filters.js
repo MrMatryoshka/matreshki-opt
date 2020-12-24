@@ -8,3 +8,8 @@ export const setSortBy = (name) => ({
      type:'SET_CATEGORY',
      payload: catIndex
  });
+
+export const setCurrentPage = (index) => ({
+    type: 'SET_CURRENT_PAGE',
+    payload: index
+});

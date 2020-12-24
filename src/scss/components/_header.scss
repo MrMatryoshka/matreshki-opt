@@ -8,6 +8,15 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    @media (max-width: 768px) {
+      flex-direction: column;
+    }
+  }
+
+  @media (max-width: 768px) {
+    &__cart {
+      margin-top: 30px;
+    }
   }
 
   &__logo {
@@ -18,7 +27,7 @@
     }
 
     h1 {
-      color: #181818;
+      color:  gold;
       font-size: 24px;
       letter-spacing: 1%;
       text-transform: uppercase;
@@ -26,7 +35,7 @@
     }
 
     p {
-      color: #7b7b7b;
+      color:  #fae208f8;
     }
   }
 }

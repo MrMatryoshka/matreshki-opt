@@ -1,8 +1,8 @@
-@import 'variables';
+//@import 'variables';
 
 .button {
   display: inline-block;
-  background-color: $orange;
+  background-color: gold;
   border-radius: 30px;
   padding: 10px 20px;
   min-width: 100px;
@@ -14,22 +14,24 @@
 
   &,
   span {
-    color: #fff;
+    color: black;
   }
 
   i,
   span,
   path,
+  a,
   svg {
     transition: all $duration ease-in-out;
   }
 
   &:hover {
-    background-color: darken($orange, 8%);
+    background-color: darken($orange, 10%);
+
   }
 
   &:active {
-    background-color: darken($orange, 12%);
+    background-color:darken($orange, 12%);
     transform: translateY(1px);
   }
 
@@ -54,30 +56,30 @@
   }
 
   &--outline {
-    background-color: #fff;
+    background-color: gold;
     border-color: $orange;
     &,
     span {
-      color: $orange;
+      color: black;
     }
 
     svg {
       path {
-        fill: $orange;
+        fill: black;
       }
     }
 
     &:hover {
-      background-color: $orange;
+      background-color: black;
 
       &,
       span {
-        color: #fff;
+        color: gold;
       }
 
       svg {
         path {
-          fill: #fff;
+          fill: gold;
         }
       }
     }
@@ -107,16 +109,16 @@
 
     &:hover {
       i {
-        background-color: #fff;
-        color: $orange;
+        background-color:gold;
+        color: black;
       }
     }
 
     i {
       display: inline-block;
       border-radius: 30px;
-      background-color: $orange;
-      color: #fff;
+      background-color: black;
+      color: gold;
       font-weight: 600;
       width: 22px;
       height: 22px;

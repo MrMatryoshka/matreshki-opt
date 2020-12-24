@@ -31,7 +31,7 @@ function Header() {
 
                 <Link to={'/about'}>
                     <Button className=" button--cart">
-                        <span>О нас</span>
+                        <span>о нас </span>
 
                     </Button>
                 </Link>

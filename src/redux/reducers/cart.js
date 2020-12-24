@@ -41,7 +41,6 @@ const cart = (state = initialState, action) => {
 
 
             }
-            // const items = Object.values(newItems).map((obj) => obj.items)
             const totalCount = getTotalSum(newItems, 'items.length');
             const totalPrice = getTotalSum(newItems, 'totalPrice');
 

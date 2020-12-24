@@ -1,6 +1,7 @@
 
 const initialState ={
     category: null,
+    currentPage: null,
     sortBy:{
         type:'popular',
         order:'desc'
@@ -20,6 +21,15 @@ const filters = (state = initialState, action) => {
             category: action.payload
         }
     }
+
+    if (action.type === 'SET_CURRENT_PAGE'){
+        return {
+            ...state,
+            currentPage: action.payload
+        }
+    }
+
+
     return state
 };
 export default filters

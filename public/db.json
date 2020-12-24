@@ -8,7 +8,8 @@
       "sizes": [10, 15, 18,20,25,27,30,35,40,45],
       "price": 270,
       "category": 0,
-      "rating": 4
+      "rating": 4,
+      "about" : "SEO для этой позиции"
     },
     {
       "id": 1,
@@ -18,7 +19,8 @@
       "sizes": [15, 18],
       "price": 300,
       "category": 0,
-      "rating": 6
+      "rating": 6,
+      "about" : "SEO для этой позиции"
     },
     {
       "id": 2,
@@ -28,7 +30,8 @@
       "sizes": [15, 18],
       "price": 400,
       "category": 4,
-      "rating": 4
+      "rating": 4,
+      "about" : "SEO для этой позиции"
     },
     {
       "id": 3,
@@ -38,7 +41,8 @@
       "sizes": [12, 15, 18],
       "price": 450,
       "category": 4,
-      "rating": 2
+      "rating": 2,
+      "about" : "SEO для этой позиции"
     },
     {
       "id": 4,
@@ -48,7 +52,8 @@
       "sizes": [18],
       "price": 450,
       "category": 2,
-      "rating": 8
+      "rating": 8,
+      "about" : "SEO для этой позиции"
     },
     {
       "id": 5,
@@ -58,7 +63,8 @@
       "sizes": [10, 15,17,30],
       "price": 900,
       "category": 3,
-      "rating": 2
+      "rating": 2,
+      "about" : "SEO для этой позиции"
     },
     {
       "id": 6,
@@ -68,7 +74,8 @@
       "sizes": [10, 15, 18,20,25,27,30,35,40,45],
       "price": 900,
       "category": 0,
-      "rating": 9
+      "rating": 9,
+      "about" : "SEO для этой позиции"
     },
     {
       "id": 7,
@@ -78,7 +85,8 @@
       "sizes": [12, 15],
       "price": 650,
       "category": 0,
-      "rating": 10
+      "rating": 10,
+      "about" : "SEO для этой позиции"
     },
     {
       "id": 8,
@@ -88,7 +96,8 @@
       "sizes": [10, 15, 18],
       "price": 100,
       "category": 1,
-      "rating": 10
+      "rating": 10,
+      "about" : "SEO для этой позиции"
     },
     {
       "id": 9,
@@ -98,7 +107,118 @@
       "sizes": [10, 15, 18],
       "price": 100,
       "category": 1,
-      "rating": 7
+      "rating": 7,
+      "about" : "SEO для этой позиции"
+    },
+    {
+      "id": 10,
+      "imageUrl": "https://matreshki-opt.ru/wp-content/uploads/DP_8224-600x600.jpg",
+      "name": "Русская боярыня новая " ,
+      "types": [0, 1],
+      "sizes": [10, 15, 18,20,25,27,30,35,40,45],
+      "price": 270,
+      "category": 0,
+      "rating": 4,
+      "about" : "SEO для этой позиции"
+    },
+    {
+      "id": 11,
+      "imageUrl": "https://matreshki-opt.ru/wp-content/uploads/%D0%BA%D1%83%D0%BF%D0%B8%D1%82%D1%8C-%D0%BC%D0%B0%D1%82%D1%80%D0%B5%D1%88%D0%BA%D1%83-%D0%B2-%D0%BC%D0%B0%D0%B3%D0%B0%D0%B7%D0%B8%D0%BD%D0%B5.jpg",
+      "name": "Аленка1  новая",
+      "types": [0],
+      "sizes": [15, 18],
+      "price": 300,
+      "category": 0,
+      "rating": 6,
+      "about" : "SEO для этой позиции"
+    },
+    {
+      "id": 12,
+      "imageUrl": "https://matreshki-opt.ru/wp-content/uploads/%D0%BC%D0%B0%D1%82%D1%80%D0%B5%D1%88%D0%BA%D0%B0-%D0%BC%D0%BE%D1%81%D0%BA%D0%B2%D0%B0-1.jpg",
+      "name": "Городец  новая ",
+      "types": [1],
+      "sizes": [15, 18],
+      "price": 400,
+      "category": 4,
+      "rating": 4,
+      "about" : "SEO для этой позиции"
+    },
+    {
+      "id": 13,
+      "imageUrl": "https://matreshki-opt.ru/wp-content/uploads/%D0%B8%D1%81%D1%82%D0%BE%D1%80%D0%B8%D1%8F-%D0%BC%D0%B0%D1%82%D1%80%D0%B5%D1%88%D0%BA%D0%B8.jpg",
+      "name": "Жемчужина  новая",
+      "types": [1],
+      "sizes": [12, 15, 18],
+      "price": 450,
+      "category": 4,
+      "rating": 2,
+      "about" : "SEO для этой позиции"
+    },
+    {
+      "id": 14,
+      "imageUrl": "http://matreshki-opt.ru/wp-content/uploads/%D0%BC%D0%B0%D1%82%D1%80%D0%B5%D1%88%D0%BA%D0%B8-%D0%B7%D0%B0%D1%8F%D1%82%D0%B8%D1%8F.jpg",
+      "name": "Рыбак  новая",
+      "types": [1],
+      "sizes": [18],
+      "price": 450,
+      "category": 2,
+      "rating": 8,
+      "about" : "SEO для этой позиции"
+    },
+    {
+      "id": 15,
+      "imageUrl": "https://matreshki-opt.ru/wp-content/uploads/%D0%BC%D0%B0%D1%82%D1%80%D0%B5%D1%88%D0%BA%D0%B0-%D0%BA%D1%83%D0%BF%D0%B8%D1%82%D1%8C.jpg",
+      "name": "Вятская  новая",
+      "types": [0],
+      "sizes": [10, 15,17,30],
+      "price": 900,
+      "category": 3,
+      "rating": 2,
+      "about" : "SEO для этой позиции"
+    },
+    {
+      "id": 16,
+      "imageUrl": "https://matreshki-opt.ru/wp-content/uploads/%D0%BA%D1%83%D0%BF%D0%B8%D1%82%D1%8C-%D1%80%D1%83%D1%81%D1%81%D0%BA%D1%83%D1%8E-%D0%BC%D0%B0%D1%82%D1%80%D0%B5%D1%88%D0%BA%D1%83.jpg",
+      "name": "Семеновская  новая",
+      "types": [ 1],
+      "sizes": [10, 15, 18,20,25,27,30,35,40,45],
+      "price": 900,
+      "category": 0,
+      "rating": 9,
+      "about" : "SEO для этой позиции"
+    },
+    {
+      "id": 17,
+      "imageUrl": "https://matreshki-opt.ru/wp-content/uploads/DP_8245-600x600.jpg",
+      "name": "Семеновская  новая",
+      "types": [0, 1],
+      "sizes": [12, 15],
+      "price": 650,
+      "category": 0,
+      "rating": 10,
+      "about" : "SEO для этой позиции"
+    },
+    {
+      "id": 18,
+      "imageUrl": "https://matreshki-opt.ru/wp-content/uploads/FqJMabAxcGo-600x600.jpg",
+      "name": "Майдановская  новая",
+      "types": [0],
+      "sizes": [10, 15, 18],
+      "price": 100,
+      "category": 1,
+      "rating": 10,
+      "about" : "SEO для этой позиции"
+    },
+    {
+      "id": 19,
+      "imageUrl": "https://matreshki-opt.ru/wp-content/uploads/%D0%BC%D0%B0%D1%82%D1%80%D0%B5%D1%88%D0%BA%D0%B0-%D0%BA%D1%83%D0%BF%D0%B8%D1%82%D1%8C-%D0%BE%D0%BF%D1%82%D0%BE%D0%BC.jpg",
+      "name": "Агата  новая ",
+      "types": [0, 1],
+      "sizes": [10, 15, 18],
+      "price": 100,
+      "category": 1,
+      "rating": 7,
+      "about" : "SEO для этой позиции"
     }
   ]
 }

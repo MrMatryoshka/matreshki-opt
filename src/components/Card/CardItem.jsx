@@ -20,7 +20,7 @@ return (
                 <img
                     className="matreshka-block__image"
                     src={imageUrl}
-                    alt="Матрека"
+                    alt="Матрешка"
                 />
             </div>
             <div className="cart__item-info">

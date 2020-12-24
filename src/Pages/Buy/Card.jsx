@@ -13,7 +13,6 @@ function Card () {
     const matreshkaBuy = Object.keys(items).map(key => {
         return items[key].items[0]
     })
-
     const onClearCart = () => {
        if(window.confirm('Вы действительно хотите очистить корзину ?')){
            dispatch(clearCart())
@@ -21,7 +20,7 @@ function Card () {
     };
 
     const onRemoveCart = (id) => {
-        if(window.confirm('Вы действительно хотите удфлить матрешку ?')){
+        if(window.confirm('Вы действительно хотите удалить матрешку ?')){
             dispatch(removeItem(id))
         }
     }

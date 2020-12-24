@@ -2,9 +2,10 @@ import React from "react";
 import PropTypes from 'prop-types';
 import classNames from 'classnames';
 import Button from "../../hoc/Button/Button";
+import {Link} from "react-router-dom";
 
 
-function Matreshka ({id,name,imageUrl,price,sizes, types,onClickAddMatreshka,addedCount}) {
+function Matreshka ({id,name,imageUrl,price,about,sizes, types,onClickAddMatreshka,addedCount,NavLinkId}) {
 
     const availableTypes= ['Традиционная','Авторская']
 
@@ -12,7 +13,6 @@ function Matreshka ({id,name,imageUrl,price,sizes, types,onClickAddMatreshka,add
     const [activeSize,setActiveSize]= React.useState(0)
 
     const availableSize =[10, 15, 18]
-
 
     const onSelectTypes = (index) => {
         setActiveType(index)
@@ -34,16 +34,29 @@ function Matreshka ({id,name,imageUrl,price,sizes, types,onClickAddMatreshka,add
         onClickAddMatreshka(obj)
     }
 
+    const handleClickId = (e) => {
+        e.preventDefault()
+        const obj = {
+            id,
+            name,
+            imageUrl,
+            price,
+            about
+        }
+       NavLinkId(obj)
+    }
+
+
     return (
-        <div className="matreshka-block">
+        <div className="matreshka-block"  >
             <img
                 className="matreshka-block__image"
                 src={imageUrl}
                 alt="Matreshka"
             />
             <h4 className="matreshka-block__title"> {name} </h4>
-            <div className="matreshka-block__selector">
-                <ul>
+            <div className="matreshka-block__selector"  >
+                <ul >
                     {availableTypes.map((type,index)=>
                         <li
                             key={type}
@@ -85,6 +98,9 @@ function Matreshka ({id,name,imageUrl,price,sizes, types,onClickAddMatreshka,add
                     </svg>
                     <span>Добавить</span>
                     {addedCount &&<i>{addedCount}</i>}
+                </Button>
+                <Button onClick={handleClickId}  className={"button--add"} outline >
+                    <Link  to={`/matreshka/${id}`}> Подробней</Link>
                 </Button>
             </div>
         </div>

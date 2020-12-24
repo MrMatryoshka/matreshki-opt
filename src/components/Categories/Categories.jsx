@@ -3,12 +3,6 @@ import PropTypes from "prop-types";
 
 
 const Categories = React.memo(function Categories({activeCategory,items,onClickCategory}) {
-    // const [activeItem,setActiveItem]= useState(null)
-
-    // const onSelectItem = index => {
-    //     // setActiveItem(index)
-    //     onClickCategory(index)
-    // }
 
     return (
         <div className="categories">
