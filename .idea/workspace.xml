@@ -2,35 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8c42b9aa-c3b3-439a-8660-c2abfab784b2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Pages/ Gallery/[id].jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Paginate/Paginate.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/actions/matreshkaFirst.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/reducers/matreshkaFirst.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/db.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/db.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Pages/ Gallery/Gallery.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/ Gallery/Gallery.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Pages/Buy/Card.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/Buy/Card.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Card/CardItem.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Card/CardItem.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Card/cart-empty.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Card/cart-empty.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Categories/Categories.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Categories/Categories.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Header/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Matreshka/Matreshka.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Matreshka/Matreshka.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/SortPopup/SortPopup.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SortPopup/SortPopup.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/redux/actions/filters.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/actions/filters.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/redux/actions/matreshka.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/actions/matreshka.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/reducers/cart.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/reducers/cart.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/redux/reducers/filters.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/reducers/filters.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/reducers/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/reducers/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/reducers/matreshka.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/reducers/matreshka.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/scss/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/app.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/components/_button.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/components/_button.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/components/_categories.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/components/_categories.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/components/_header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/components/_header.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/components/_matreshka-block.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/components/_matreshka-block.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/components/_sort.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/components/_sort.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +23,7 @@
     </option>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="#5-1" />
+        <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -147,10 +125,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="npm.json-server" />
-        <item itemvalue="npm.build" />
         <item itemvalue="npm.json" />
         <item itemvalue="npm.eject" />
-        <item itemvalue="npm.eject" />
+        <item itemvalue="npm.build" />
+        <item itemvalue="npm.json-server" />
       </list>
     </recent_temporary>
   </component>
@@ -243,7 +221,7 @@
       <workItem from="1604993940385" duration="10000" />
       <workItem from="1608383647417" duration="206000" />
       <workItem from="1608383874597" duration="9000" />
-      <workItem from="1608447878974" duration="52324000" />
+      <workItem from="1608447878974" duration="67784000" />
     </task>
     <task id="LOCAL-00001" summary="50/50">
       <created>1601450180918</created>
@@ -294,7 +272,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602143943587</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Add info one Matreshka &#10;Add Paginate">
+      <created>1608826926317</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1608826926317</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -308,7 +293,8 @@
     <MESSAGE value="&#10;Sorting - 2 and add Buy" />
     <MESSAGE value="&#10;new Buy" />
     <MESSAGE value="&#10;&#10;adding and removing in the basket" />
-    <option name="LAST_COMMIT_MESSAGE" value="&#10;&#10;adding and removing in the basket" />
+    <MESSAGE value="Add info one Matreshka &#10;Add Paginate" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add info one Matreshka &#10;Add Paginate" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
@@ -325,44 +311,49 @@
       <screen x="0" y="23" width="1440" height="791" />
     </state>
     <state x="427" y="180" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1440.791@0.23.1440.791" timestamp="1601027600032" />
-    <state x="309" y="23" key="CommitChangelistDialog2" timestamp="1602143943267">
-      <screen x="0" y="23" width="1440" height="791" />
-    </state>
-    <state x="309" y="23" key="CommitChangelistDialog2/0.23.1440.791@0.23.1440.791" timestamp="1602143943267" />
-    <state width="1385" height="149" key="GridCell.Tab.0.bottom" timestamp="1608826728755">
+    <state x="309" y="23" key="CommitChangelistDialog2" timestamp="1608826925699">
       <screen x="0" y="23" width="1440" height="781" />
     </state>
-    <state width="1385" height="149" key="GridCell.Tab.0.bottom/0.23.1440.781@0.23.1440.781" timestamp="1608826728755" />
+    <state x="309" y="23" key="CommitChangelistDialog2/0.23.1440.781@0.23.1440.781" timestamp="1608826925699" />
+    <state x="309" y="23" key="CommitChangelistDialog2/0.23.1440.791@0.23.1440.791" timestamp="1602143943267" />
+    <state width="1385" height="150" key="GridCell.Tab.0.bottom" timestamp="1609059865663">
+      <screen x="0" y="23" width="1440" height="788" />
+    </state>
+    <state width="1385" height="149" key="GridCell.Tab.0.bottom/0.23.1440.781@0.23.1440.781" timestamp="1608912324849" />
+    <state width="1385" height="150" key="GridCell.Tab.0.bottom/0.23.1440.788@0.23.1440.788" timestamp="1609059865663" />
     <state width="1385" height="163" key="GridCell.Tab.0.bottom/0.23.1440.790@0.23.1440.790" timestamp="1608448392651" />
     <state width="1385" height="2" key="GridCell.Tab.0.bottom/0.23.1440.791@0.23.1440.791" timestamp="1602344278443" />
     <state width="1419" height="190" key="GridCell.Tab.0.bottom/0.23.1440.792@0.23.1440.792" timestamp="1601972838766" />
     <state width="1419" height="226" key="GridCell.Tab.0.bottom/0.23.1440.795@0.23.1440.795" timestamp="1601808403944" />
     <state width="1385" height="96" key="GridCell.Tab.0.bottom/0.23.1440.822@0.23.1440.822" timestamp="1608383856432" />
     <state width="1325" height="197" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1601050943440" />
-    <state width="1385" height="149" key="GridCell.Tab.0.center" timestamp="1608826728754">
-      <screen x="0" y="23" width="1440" height="781" />
+    <state width="1385" height="150" key="GridCell.Tab.0.center" timestamp="1609059865661">
+      <screen x="0" y="23" width="1440" height="788" />
     </state>
-    <state width="1385" height="149" key="GridCell.Tab.0.center/0.23.1440.781@0.23.1440.781" timestamp="1608826728754" />
+    <state width="1385" height="149" key="GridCell.Tab.0.center/0.23.1440.781@0.23.1440.781" timestamp="1608912324847" />
+    <state width="1385" height="150" key="GridCell.Tab.0.center/0.23.1440.788@0.23.1440.788" timestamp="1609059865661" />
     <state width="1385" height="163" key="GridCell.Tab.0.center/0.23.1440.790@0.23.1440.790" timestamp="1608448392649" />
     <state width="1385" height="2" key="GridCell.Tab.0.center/0.23.1440.791@0.23.1440.791" timestamp="1602344278441" />
     <state width="1419" height="190" key="GridCell.Tab.0.center/0.23.1440.792@0.23.1440.792" timestamp="1601972838764" />
     <state width="1419" height="226" key="GridCell.Tab.0.center/0.23.1440.795@0.23.1440.795" timestamp="1601808403942" />
     <state width="1385" height="96" key="GridCell.Tab.0.center/0.23.1440.822@0.23.1440.822" timestamp="1608383856431" />
     <state width="1325" height="197" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1601050943439" />
-    <state width="1385" height="149" key="GridCell.Tab.0.left" timestamp="1608826728753">
-      <screen x="0" y="23" width="1440" height="781" />
+    <state width="1385" height="150" key="GridCell.Tab.0.left" timestamp="1609059865655">
+      <screen x="0" y="23" width="1440" height="788" />
     </state>
-    <state width="1385" height="149" key="GridCell.Tab.0.left/0.23.1440.781@0.23.1440.781" timestamp="1608826728753" />
+    <state width="1385" height="149" key="GridCell.Tab.0.left/0.23.1440.781@0.23.1440.781" timestamp="1608912324847" />
+    <state width="1385" height="150" key="GridCell.Tab.0.left/0.23.1440.788@0.23.1440.788" timestamp="1609059865655" />
     <state width="1385" height="163" key="GridCell.Tab.0.left/0.23.1440.790@0.23.1440.790" timestamp="1608448392648" />
     <state width="1385" height="2" key="GridCell.Tab.0.left/0.23.1440.791@0.23.1440.791" timestamp="1602344278440" />
     <state width="1419" height="190" key="GridCell.Tab.0.left/0.23.1440.792@0.23.1440.792" timestamp="1601972838761" />
     <state width="1419" height="226" key="GridCell.Tab.0.left/0.23.1440.795@0.23.1440.795" timestamp="1601808403940" />
     <state width="1385" height="96" key="GridCell.Tab.0.left/0.23.1440.822@0.23.1440.822" timestamp="1608383856431" />
     <state width="1325" height="197" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1601050943438" />
-    <state width="1385" height="149" key="GridCell.Tab.0.right" timestamp="1608826728754">
-      <screen x="0" y="23" width="1440" height="781" />
+    <state width="1385" height="150" key="GridCell.Tab.0.right" timestamp="1609059865662">
+      <screen x="0" y="23" width="1440" height="788" />
     </state>
-    <state width="1385" height="149" key="GridCell.Tab.0.right/0.23.1440.781@0.23.1440.781" timestamp="1608826728754" />
+    <state width="1385" height="149" key="GridCell.Tab.0.right/0.23.1440.781@0.23.1440.781" timestamp="1608912324848" />
+    <state width="1385" height="150" key="GridCell.Tab.0.right/0.23.1440.788@0.23.1440.788" timestamp="1609059865662" />
     <state width="1385" height="163" key="GridCell.Tab.0.right/0.23.1440.790@0.23.1440.790" timestamp="1608448392650" />
     <state width="1385" height="2" key="GridCell.Tab.0.right/0.23.1440.791@0.23.1440.791" timestamp="1602344278442" />
     <state width="1419" height="190" key="GridCell.Tab.0.right/0.23.1440.792@0.23.1440.792" timestamp="1601972838765" />
@@ -377,9 +368,10 @@
       <screen x="0" y="23" width="1440" height="786" />
     </state>
     <state x="198" y="23" key="SettingsEditor/0.23.1440.786@0.23.1440.786" timestamp="1608451150229" />
-    <state x="293" y="157" key="Vcs.Push.Dialog.v2" timestamp="1602143947049">
-      <screen x="0" y="23" width="1440" height="791" />
+    <state x="293" y="155" key="Vcs.Push.Dialog.v2" timestamp="1608827019401">
+      <screen x="0" y="23" width="1440" height="781" />
     </state>
+    <state x="293" y="155" key="Vcs.Push.Dialog.v2/0.23.1440.781@0.23.1440.781" timestamp="1608827019401" />
     <state x="293" y="157" key="Vcs.Push.Dialog.v2/0.23.1440.791@0.23.1440.791" timestamp="1602143947049" />
     <state x="125" y="123" width="1074" height="483" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1608448448554">
       <screen x="0" y="23" width="1440" height="786" />

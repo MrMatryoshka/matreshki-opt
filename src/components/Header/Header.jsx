@@ -20,6 +20,7 @@ function Header() {
                            <h1>Матрешка оптом</h1>
                            <p>лучшее качество прямиком от производителя </p>
                        </div>
+
                    </div>
                </Link>
                 <Link to={'/gallery'}>
@@ -74,7 +75,6 @@ function Header() {
                         </Button>
                     </Link>
                 </div>
-
             </div>
         </div>
     )

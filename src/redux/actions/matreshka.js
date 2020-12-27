@@ -6,9 +6,11 @@ export const setLoaded = value => ({
     payload: value
 })
 
-export const  fetchMatreshki = (sortBy,category,currentPage) => (dispatch) => {
+export const  fetchMatreshki = (sortBy,category,currentPage,search) => (dispatch) => {
     dispatch(setLoaded(false))
+    console.log(search,"axios")
     axios.get(`/matreshki?
+     &_name=${search}
     ${category !== null ?`category=${category}`:''}
     &_sort=${sortBy.type}
     &_order=${sortBy.order}

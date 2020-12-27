@@ -462,3 +462,12 @@ body {
     }
   }
 }
+
+.search {
+  display: flex;
+  margin: 10px 0;
+  &__input{
+    padding: 5px;
+    width: 100%;
+  }
+}

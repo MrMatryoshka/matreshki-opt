@@ -13,3 +13,8 @@ export const setCurrentPage = (index) => ({
     type: 'SET_CURRENT_PAGE',
     payload: index
 });
+
+export const setSearch = (name) => ({
+    type:'SET_SEARCH',
+    payload: name
+});

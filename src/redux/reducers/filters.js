@@ -2,6 +2,7 @@
 const initialState ={
     category: null,
     currentPage: null,
+    search: null,
     sortBy:{
         type:'popular',
         order:'desc'
@@ -26,6 +27,14 @@ const filters = (state = initialState, action) => {
         return {
             ...state,
             currentPage: action.payload
+        }
+
+    }
+
+    if (action.type === 'SET_SEARCH'){
+        return {
+            ...state,
+            search: action.payload
         }
     }
 
